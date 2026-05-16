@@ -1,0 +1,4 @@
+time;source_ip;destination_ip;source_port;destination_port;proto;event;message;hostname
+2026-05-15 11:05:10;10.10.5.21;10.10.5.1;50201;53;UDP;DNS Query;app01 normal DNS lookup;app01
+2026-05-15 11:06:30;10.10.5.22;203.0.113.10;50220;443;TCP;HTTPS Connection;files01 normal vendor update check;files01
+2026-05-15 11:07:00;10.10.5.15;203.0.113.99;59300;5555;TCP;C2 Traffic;Single suspicious callback used for parser testing;web01

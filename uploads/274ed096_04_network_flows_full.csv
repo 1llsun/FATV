@@ -1,0 +1,29 @@
+timestamp,src_ip,dst_ip,src_port,dst_port,protocol,event_type,description,hostname
+2026-05-15 09:56:10,10.10.5.15,10.10.5.1,49810,53,UDP,DNS Query,Normal lookup for updates.example.local,web01
+2026-05-15 09:56:12,10.10.5.15,203.0.113.10,49812,443,TCP,HTTPS Connection,Normal outbound package repository check,web01
+2026-05-15 10:00:00,198.51.100.23,10.10.5.15,54000,22,TCP,Connection Attempt,SYN probe to service port 22,edge-fw
+2026-05-15 10:00:05,198.51.100.23,10.10.5.15,54001,80,TCP,Connection Attempt,SYN probe to service port 80,edge-fw
+2026-05-15 10:00:10,198.51.100.23,10.10.5.15,54002,443,TCP,Connection Attempt,SYN probe to service port 443,edge-fw
+2026-05-15 10:00:15,198.51.100.23,10.10.5.15,54003,8080,TCP,Connection Attempt,SYN probe to service port 8080,edge-fw
+2026-05-15 10:00:20,198.51.100.23,10.10.5.15,54004,8081,TCP,Connection Attempt,SYN probe to service port 8081,edge-fw
+2026-05-15 10:00:25,198.51.100.23,10.10.5.15,54005,3306,TCP,Connection Attempt,SYN probe to service port 3306,edge-fw
+2026-05-15 10:00:30,198.51.100.23,10.10.5.15,54006,5432,TCP,Connection Attempt,SYN probe to service port 5432,edge-fw
+2026-05-15 10:00:35,198.51.100.23,10.10.5.15,54007,6379,TCP,Connection Attempt,SYN probe to service port 6379,edge-fw
+2026-05-15 10:00:40,198.51.100.23,10.10.5.15,54008,9200,TCP,Connection Attempt,SYN probe to service port 9200,edge-fw
+2026-05-15 10:00:45,198.51.100.23,10.10.5.15,54009,9300,TCP,Connection Attempt,SYN probe to service port 9300,edge-fw
+2026-05-15 10:00:50,198.51.100.23,10.10.5.15,54010,11211,TCP,Connection Attempt,SYN probe to service port 11211,edge-fw
+2026-05-15 10:00:55,198.51.100.23,10.10.5.15,54011,25,TCP,Connection Attempt,SYN probe to service port 25,edge-fw
+2026-05-15 10:01:00,198.51.100.23,10.10.5.15,54012,110,TCP,Connection Attempt,SYN probe to service port 110,edge-fw
+2026-05-15 10:01:05,198.51.100.23,10.10.5.15,54013,139,TCP,Connection Attempt,SYN probe to service port 139,edge-fw
+2026-05-15 10:01:10,198.51.100.23,10.10.5.15,54014,445,TCP,Connection Attempt,SYN probe to service port 445,edge-fw
+2026-05-15 10:14:00,10.10.5.15,10.10.5.21,56000,22,TCP,Internal Connection,SSH login attempt to app01,web01
+2026-05-15 10:14:20,10.10.5.15,10.10.5.22,56001,445,TCP,Internal Connection,SMB connection to files01,web01
+2026-05-15 10:14:40,10.10.5.15,10.10.5.23,56002,3389,TCP,Internal Connection,RDP connection to admin workstation,web01
+2026-05-15 10:15:00,10.10.5.15,10.10.5.24,56003,5985,TCP,Internal Connection,WinRM management connection,web01
+2026-05-15 10:16:00,10.10.5.15,203.0.113.77,57000,4444,TCP,C2 Traffic,Repeated small outbound beacon to unknown external server,web01
+2026-05-15 10:17:00,10.10.5.15,203.0.113.77,57001,4444,TCP,C2 Traffic,Repeated small outbound beacon to unknown external server,web01
+2026-05-15 10:18:00,10.10.5.15,203.0.113.77,57002,4444,TCP,C2 Traffic,Repeated small outbound beacon to unknown external server,web01
+2026-05-15 10:19:00,10.10.5.15,203.0.113.77,57003,4444,TCP,C2 Traffic,Repeated small outbound beacon to unknown external server,web01
+2026-05-15 10:20:00,10.10.5.15,203.0.113.77,57004,4444,TCP,C2 Traffic,Repeated small outbound beacon to unknown external server,web01
+2026-05-15 10:23:00,10.10.5.15,203.0.113.88,58000,9001,TCP,Data Transfer,Large encrypted upload to unknown external host,web01
+2026-05-15 10:23:45,10.10.5.15,203.0.113.88,58001,9001,TCP,Data Transfer,Large encrypted upload to unknown external host,web01

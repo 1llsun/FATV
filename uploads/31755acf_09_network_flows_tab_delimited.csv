@@ -1,0 +1,4 @@
+datetime	src	dst	sport	dport	transport	type	details
+2026-05-15 11:15:00	172.16.10.8	10.10.5.15	61001	80	TCP	HTTP Connection	internal user opened intranet portal
+2026-05-15 11:15:07	172.16.10.8	10.10.5.15	61002	443	TCP	HTTPS Connection	internal user opened secure portal
+2026-05-15 11:16:20	10.10.5.15	203.0.113.120	61050	8888	TCP	C2 Traffic	parser validation suspicious outbound connection

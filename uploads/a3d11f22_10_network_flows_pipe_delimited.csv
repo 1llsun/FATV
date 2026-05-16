@@ -1,0 +1,4 @@
+ts|ip_src|ip_dst|sourceport|destport|proto_name|category|summary
+2026-05-15 11:22:01|10.10.5.30|10.10.5.15|62001|445|TCP|Internal Connection|normal file share access from finance workstation
+2026-05-15 11:22:09|10.10.5.31|10.10.5.15|62002|3389|TCP|Internal Connection|admin RDP maintenance session
+2026-05-15 11:25:20|10.10.5.15|203.0.113.121|62055|9999|TCP|Data Transfer|parser validation large upload to external endpoint

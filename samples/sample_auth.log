@@ -1,0 +1,33 @@
+Apr 28 13:55:01 webserver sshd[1100]: Invalid user admin from 192.168.100.50 port 54001 ssh2
+Apr 28 13:55:02 webserver sshd[1100]: Failed password for invalid user admin from 192.168.100.50 port 54002 ssh2
+Apr 28 13:55:04 webserver sshd[1100]: Failed password for invalid user admin from 192.168.100.50 port 54003 ssh2
+Apr 28 13:55:06 webserver sshd[1100]: Failed password for invalid user admin from 192.168.100.50 port 54004 ssh2
+Apr 28 13:55:08 webserver sshd[1100]: Failed password for invalid user root from 192.168.100.50 port 54005 ssh2
+Apr 28 13:55:10 webserver sshd[1100]: Failed password for invalid user root from 192.168.100.50 port 54006 ssh2
+Apr 28 13:55:12 webserver sshd[1100]: Failed password for invalid user ubuntu from 192.168.100.50 port 54007 ssh2
+Apr 28 13:55:14 webserver sshd[1100]: Failed password for invalid user ubuntu from 192.168.100.50 port 54008 ssh2
+Apr 28 13:55:16 webserver sshd[1100]: Failed password for invalid user sysadmin from 192.168.100.50 port 54009 ssh2
+Apr 28 13:55:18 webserver sshd[1100]: Failed password for invalid user sysadmin from 192.168.100.50 port 54010 ssh2
+Apr 28 13:55:20 webserver sshd[1100]: Failed password for invalid user deploy from 192.168.100.50 port 54011 ssh2
+Apr 28 13:55:22 webserver sshd[1100]: Failed password for invalid user deploy from 192.168.100.50 port 54012 ssh2
+Apr 28 13:55:24 webserver sshd[1100]: Failed password for invalid user jenkins from 192.168.100.50 port 54013 ssh2
+Apr 28 13:55:26 webserver sshd[1100]: Failed password for root from 192.168.100.50 port 54014 ssh2
+Apr 28 13:55:28 webserver sshd[1100]: Failed password for root from 192.168.100.50 port 54015 ssh2
+Apr 28 13:55:30 webserver sshd[1100]: Failed password for root from 192.168.100.50 port 54016 ssh2
+Apr 28 13:56:00 webserver sshd[1100]: Failed password for admin from 192.168.100.50 port 54017 ssh2
+Apr 28 13:56:30 webserver sshd[1100]: Failed password for admin from 192.168.100.50 port 54018 ssh2
+Apr 28 13:57:00 webserver sshd[1100]: Failed password for admin from 192.168.100.50 port 54019 ssh2
+Apr 28 13:57:30 webserver sshd[1100]: Failed password for admin from 192.168.100.50 port 54020 ssh2
+Apr 28 13:58:00 webserver sshd[1100]: Accepted password for admin from 192.168.100.50 port 54021 ssh2
+Apr 28 13:58:01 webserver sshd[1100]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Apr 28 13:58:45 webserver sudo[2200]: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+Apr 28 13:58:47 webserver sudo[2201]: pam_unix(sudo:session): session opened for user root by admin(uid=1001)
+Apr 28 13:59:00 webserver su[2300]: Successful su for root by admin
+Apr 28 13:59:01 webserver su[2300]: + ??? root:admin
+Apr 28 13:59:30 webserver sshd[3300]: Accepted password for sysadmin from 10.0.0.5 port 52100 ssh2
+Apr 28 13:59:31 webserver sshd[3300]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Apr 28 14:02:15 webserver sshd[3400]: Accepted password for dbadmin from 10.0.0.5 port 52200 ssh2
+Apr 28 14:03:00 webserver sudo[4400]: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Apr 28 14:12:00 webserver rm[9900]: Removing /var/log/auth.log by root
+Apr 28 14:12:05 webserver rm[9901]: Removing /var/log/syslog by root
+Apr 28 14:12:10 webserver rm[9902]: Removing /var/log/kern.log by root

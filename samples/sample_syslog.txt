@@ -1,0 +1,17 @@
+Apr 28 13:58:50 webserver kernel: [892100.123456] audit: type=1400 audit(1745841530.0:800): apparmor="DENIED" operation="exec" name="/usr/bin/nc" pid=2150
+Apr 28 13:58:55 webserver cron[4567]: (admin) CMD (whoami)
+Apr 28 13:59:05 webserver kernel: [892115.234567] iptables DROPPED IN=eth0 OUT= SRC=10.0.0.5 DST=10.0.0.20 PROTO=TCP DPT=22 LEN=60
+Apr 28 13:59:10 webserver kernel: [892120.345678] iptables DROPPED IN=eth0 OUT= SRC=10.0.0.5 DST=10.0.0.30 PROTO=TCP DPT=22 LEN=60
+Apr 28 13:59:15 webserver kernel: [892125.456789] iptables DROPPED IN=eth0 OUT= SRC=10.0.0.5 DST=10.0.0.40 PROTO=TCP DPT=3389 LEN=60
+Apr 28 14:00:00 webserver python3[6789]: Script started /tmp/.recon.py by root
+Apr 28 14:01:00 webserver find[7890]: root searching /home for sensitive files
+Apr 28 14:02:00 webserver tar[5678]: root archiving /var/www/html/data to /tmp/.data_archive.tar.gz (size: 2.3GB)
+Apr 28 14:03:00 webserver python3[6790]: Script started /tmp/.exfil.py by root - connecting to 192.168.100.50:9001
+Apr 28 14:04:00 webserver cat[8901]: root accessed /etc/shadow
+Apr 28 14:04:05 webserver cat[8902]: root accessed /etc/passwd
+Apr 28 14:04:10 webserver openssl[8903]: root decrypted /var/lib/mysql/users.ibd
+Apr 28 14:11:00 webserver cron[9000]: (root) CMD (/tmp/.persist.sh)
+Apr 28 14:12:00 webserver rm[9900]: root removing /var/log/auth.log
+Apr 28 14:12:05 webserver rm[9901]: root removing /var/log/syslog
+Apr 28 14:12:10 webserver rm[9902]: root removing /var/log/kern.log
+Apr 28 14:12:15 webserver sed[9903]: root modifying /var/log/btmp (log tampering)

