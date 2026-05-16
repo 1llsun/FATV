@@ -53,6 +53,7 @@ http://127.0.0.1:5001
 ### 4. Load sample data
 
 Click **"Load Sample Attack Scenario"** on the home page to immediately explore a realistic multi-stage intrusion demo with:
+
 - Web enumeration & SQL injection
 - SSH brute force → successful compromise
 - Privilege escalation to root
@@ -157,3 +158,5 @@ Run tests with:
 ```bash
 python -m pytest
 ```
+
+...
