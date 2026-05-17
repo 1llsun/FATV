@@ -4,7 +4,7 @@
 
 | Field | Detail |
 |---|---|
-| **Authors** | Farhan Saifullah (55596) & Tayyab Ayub |
+| **Authors** | Farhan Saifullah (55596) & Tayyab Ayub (51599) |
 | **Course** | Digital Forensics |
 | **Instructor** | Sir Humayun |
 | **Program** | BSCY-6-1, Riphah International University |
